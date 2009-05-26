@@ -1,0 +1,101 @@
+<boardgames>
+			<boardgame objectid="40214">
+			<yearpublished>2009</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>5</maxplayers>
+			<playingtime>60</playingtime>
+			<age>10</age>
+
+			<name primary="true" sortindex="1">Bombay</name>
+									
+			<description>During the game the players will acquire goods which they will try to resell at the best price in four cities. Each type of good has its own market where the prices of the goods will fluctuate. To transport their goods, each player owns a charming elephant able to transport up to two bundles.
+
+Up to now Bombay will be one of  Ystari&#039;s lightest games.
+It&#039;s the third game of author  Cyril Demaegd.  Illustrations are by St&amp;eacute;phane Poinsot.
+
+</description>
+
+						<thumbnail>http://images.boardgamegeek.com/images/pic419310_t.jpg</thumbnail>
+			<image>http://images.boardgamegeek.com/images/pic419310.jpg</image>
+						
+			         						<boardgamedesigner objectid="4009">Cyril Demaegd</boardgamedesigner>
+							         						<boardgameartist objectid="12386">Stéphane Poinsot</boardgameartist>
+							         						<boardgamepublisher objectid="2861">Ystari Games</boardgamepublisher>
+							         						<boardgamecategory objectid="1021">Economic</boardgamecategory>
+									<boardgamecategory objectid="1011">Transportation</boardgamecategory>
+							         						<boardgamemechanic objectid="2007">Pick-up and Deliver</boardgamemechanic>
+							         							
+			
+			
+			
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="1" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+			
+			
+			
+		</boardgame>
+	</boardgames>
