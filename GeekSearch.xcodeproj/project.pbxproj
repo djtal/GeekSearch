@@ -15,6 +15,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DE97C74B0FCB374200C6E685 /* GeekSearchDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = DE97C74A0FCB374200C6E685 /* GeekSearchDelegate.rb */; };
 		DE97C7590FCB3D3100C6E685 /* GSTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = DE97C7580FCB3D3100C6E685 /* GSTableDelegate.rb */; };
+		DED4BF9610CEE70000024090 /* BoardGameGeekLoader.rb in Resources */ = {isa = PBXBuildFile; fileRef = DED4BF9510CEE70000024090 /* BoardGameGeekLoader.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8D1107320486CEB800E47090 /* GeekSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE97C74A0FCB374200C6E685 /* GeekSearchDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = GeekSearchDelegate.rb; path = Classes/GeekSearchDelegate.rb; sourceTree = "<group>"; };
 		DE97C7580FCB3D3100C6E685 /* GSTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GSTableDelegate.rb; sourceTree = "<group>"; };
+		DED4BF9510CEE70000024090 /* BoardGameGeekLoader.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BoardGameGeekLoader.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			children = (
 				DE97C74A0FCB374200C6E685 /* GeekSearchDelegate.rb */,
 				DE97C7580FCB3D3100C6E685 /* GSTableDelegate.rb */,
+				DED4BF9510CEE70000024090 /* BoardGameGeekLoader.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				DE97C74B0FCB374200C6E685 /* GeekSearchDelegate.rb in Resources */,
 				DE97C7590FCB3D3100C6E685 /* GSTableDelegate.rb in Resources */,
+				DED4BF9610CEE70000024090 /* BoardGameGeekLoader.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

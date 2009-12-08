@@ -20,12 +20,10 @@ class GSTableDelegate
 	end
 	
 	def tableView(tableView, objectValueForTableColumn:column, row:row)
-		parent.results[row].valueForKey("name")
+		parent.results[row].valueForKey(:name)
 	end
 	
 	def	openInBrowser()
-		NSLog("open in browser")
-		NSLog(parent.search_results.selectedRow.to_s)
 		NSWorkspace.sharedWorkspace.openURL(parent.results[parent.search_results.selectedRow].valueForKey("url"))
 	end
 	

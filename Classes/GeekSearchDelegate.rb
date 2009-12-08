@@ -26,12 +26,14 @@ class GeekSearchDelegate
 	
 	def	search_game(sender)
 		@receivedData = nil
+		@game_loader =  BoardGameGeekLoader.new
 		str = CGI.escape(search_field.stringValue)
 		str = str.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
 		url = NSURL.URLWithString("http://www.boardgamegeek.com/xmlapi/search?search=#{str}")
 		NSLog(url.absoluteString())
 		request = NSMutableURLRequest.requestWithURL(url)
 		NSURLConnection.connectionWithRequest(request, delegate: self)
+		
 	end
 	
 	
@@ -40,22 +42,7 @@ class GeekSearchDelegate
 	# called when request is fininshed
 	# we can parse the response to get the search result now
 	def connectionDidFinishLoading(connection)
-		doc = NSXMLDocument.alloc.initWithData(@receivedData,
-												options:NSXMLDocumentValidate,
-												error:nil)
-		if doc
-			games = doc.nodesForXPath("*/boardgame", error: nil)
-			NSLog("Found : #{games.size} games")
-			@results = games.map do |g|
-				game_id = g.attributeForName("objectid").stringValue
-				NSLog("game id : #{game_id}");
-				{
-					:name => g.nodesForXPath("name", error: nil).first.stringValue(),
-					:url => NSURL.URLWithString("http://www.boardgamegeek.com/boardgame/#{game_id}")
-				}
-				
-			end
-		end
+		@results = @game_loader.parse(@receivedData)
 		@search_results.reloadData
 	end
 	
